@@ -1,5 +1,5 @@
 # -
-
+在Ubuntu上安装mysql
 
 
 1. 下载并安装mysql
