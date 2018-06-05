@@ -1,4 +1,4 @@
-# -
+# -在Ubuntu上安装mysql
 在Ubuntu上安装mysql
 
 
