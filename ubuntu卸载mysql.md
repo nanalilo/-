@@ -1,4 +1,4 @@
-# -ubuntu卸载mysql
+# -ubuntu server 18.04 卸载 mysql
 
 首先用dpkg --list|grep mysql查看自己的mysql有哪些依赖
 \
