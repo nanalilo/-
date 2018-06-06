@@ -1,5 +1,5 @@
 # -ubuntu卸载mysql
-各类笔记
+
 首先用dpkg --list|grep mysql查看自己的mysql有哪些依赖
 \
 
