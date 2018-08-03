@@ -6,7 +6,7 @@ MySQL5.7更改密码，及解决远程1698错误.
 2.切换到mysql数据库<br>
  use mysql<br>
 3.建议采用命令方式更改密码，密码须由至少一个大、小写字母、符号、数字组成<br>
- alter user 'root'@'localhost' idendified by 'newPwd';<br>
+ alter user 'root'@'localhost' identified by 'newPwd';<br>
   也可采用语句来直接操作数据库表<br>
   (<b>特别注意！！一定不要忘记对密码字符应用password函数进行运算，否则会发现改完密码后无法登录了</b>)<br>
  update mysql.user set authentication_string=PASSWORD('newPwd'),plugin='mysql_native_password' where user='root';<br>
